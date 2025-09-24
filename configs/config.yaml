@@ -1,0 +1,43 @@
+# configs/config.yaml
+
+# --- Project Configuration ---
+TICKER: "GLD"
+START_DATE: "2015-01-01"
+END_DATE: "2024-12-31"
+DATA_DIR: "data" 
+TIME_STEPS: 189
+TARGET_NAME: "target"
+SEED: 2025
+
+# --- Data Splitting ---
+TEST_SIZE: 0.15
+VALIDATION_SIZE: 0.15
+
+# --- Feature Configuration ---
+MACRO_TICKERS:
+  US_Dollar_Index:
+    ticker: "DX-Y.NYB"
+    name: "dxy_close"
+  "10Y_Treasury_Yield":
+    ticker: "^TNX"
+    name: "tnx_close"
+  VIX_Volatility:
+    ticker: "^VIX"
+    name: "vix_close"
+  Crude_Oil_Futures:
+    ticker: "CL=F"
+    name: "oil_close"
+  Silver_Futures:
+    ticker: "SI=F"
+    name: "silver_close"
+  Real_Yield_Proxy:
+    ticker: "TIP"
+    name: "tip_close"
+  Copper_Futures:
+    ticker: "HG=F"
+    name: "copper_close"
+
+# --- Model Hyperparameters ---
+LSTM_UNITS: 150
+DROPOUT_RATE: 0.5
+LEARNING_RATE: 0.001
