@@ -19,7 +19,7 @@ The most rigorous validation method (Walk-Forward) confirmed the robustness of t
 | **Max Drawdown** | **-5.76%** | (Varies) |
 | **Win Rate [%]** | **83.3%** | (N/A) |
 
-![Cumulative Returns Curve](images/wf_cumul_ret.png)
+![Cumulative Returns Curve](images/BT_XGBoost.png)
 *(The purple line represents the strategy's equity curve, while the gray line represents the benchmark.)*
 
 ## Key Features
