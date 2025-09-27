@@ -1,0 +1,44 @@
+[33mcommit 482c735585018dc921ee52ab0089ae337b5e04a5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: e7bfd4d 282f40f
+Author: Rodrigo Bertin <150070937+rbertin77@users.noreply.github.com>
+Date:   Thu Sep 25 17:13:00 2025 -0300
+
+    Merge pull request #1 from rbertin77/feature/spy-analysis
+    
+    LTSM and XGBoost models with SPY.
+
+[33mcommit 282f40f31f6c85d4108ac7bb1bf28bf15776c185[m[33m ([m[1;31morigin/feature/spy-analysis[m[33m, [m[1;32mfeature/spy-analysis[m[33m)[m
+Author: Rodrigo Bertin <rbertin@gmail.com>
+Date:   Thu Sep 25 17:06:03 2025 -0300
+
+    feat: Add benchmark analysis for SPY ticker
+
+[33mcommit e67d81f3f53b964da2e7c0bd18244578671ad4b8[m
+Author: Rodrigo Bertin <rbertin@gmail.com>
+Date:   Thu Sep 25 15:28:06 2025 -0300
+
+    docs: Add final conclusion to model benchmark notebook
+
+[33mcommit e7bfd4d6c9fe903309c882da4c5f48cf62626d47[m
+Author: Rodrigo Bertin <rbertin@gmail.com>
+Date:   Thu Sep 25 12:08:50 2025 -0300
+
+    docs: Update project structure diagram in README
+
+[33mcommit 6e0ab67143a9abbfab1425d99064bce52a1f1ffe[m
+Author: Rodrigo Bertin <rbertin@gmail.com>
+Date:   Thu Sep 25 12:01:33 2025 -0300
+
+    docs: Rename chart image for clarity and update README link
+
+[33mcommit 5856bdc3d22ec5f5e50cec3a9089e83994e1c90a[m
+Author: Rodrigo Bertin <rbertin@gmail.com>
+Date:   Thu Sep 25 11:53:08 2025 -0300
+
+    docs: Add final README with result chart
+
+[33mcommit aa82ce0f1c16b362326aedec5efe656765355a50[m
+Author: Rodrigo Bertin <rbertin@gmail.com>
+Date:   Wed Sep 24 15:42:06 2025 -0300
+
+    Initial commit: Completed static backtest and model benchmark pipeline

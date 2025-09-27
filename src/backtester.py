@@ -3,6 +3,7 @@
 import vectorbt as vbt
 import pandas as pd
 import numpy as np
+import os
 
 class VectorizedBacktester:
     """
@@ -69,3 +70,29 @@ class VectorizedBacktester:
 
         print("\n===== Backtest Finished =====")
         return pf
+
+    def export_trades_to_csv(self, portfolio, filename, project_root):
+        """
+        Exports the closed trades from a portfolio object to a CSV file.
+
+        Args:
+            portfolio (vbt.Portfolio): The portfolio object from a backtest run.
+            filename (str): The name of the output CSV file.
+            project_root (str): The absolute path to the project's root directory.
+        """
+        # Create a 'results' directory if it doesn't exist
+        results_dir = os.path.join(project_root, 'results')
+        os.makedirs(results_dir, exist_ok=True)
+        
+        # Get the trade records as a pandas DataFrame
+        trades_df = pd.DataFrame(portfolio.trades.records)
+        
+        # Define the full path for the output file
+        output_path = os.path.join(results_dir, filename)
+        
+        if trades_df.empty:
+            print(f"No trades to export for {filename}.")
+        else:
+            # Save the DataFrame to a CSV file
+            trades_df.to_csv(output_path)
+            print(f"Successfully exported {len(trades_df)} trades to: {output_path}")

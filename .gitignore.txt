@@ -12,6 +12,7 @@ __pycache__/
 # Data files - We don't upload large data files to GitHub
 # The code should download them on the first run
 data/
+results/
 
 # IDE specific files
 .vscode/
