@@ -1,7 +1,7 @@
 # configs/config.yaml
 
 # --- Project Configuration ---
-TICKER: "GLD"
+TICKER: "SPY"
 START_DATE: "2015-01-01"
 END_DATE: "2024-12-31"
 DATA_DIR: "data" 
