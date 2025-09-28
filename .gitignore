@@ -7,7 +7,8 @@ __pycache__/
 *.pyc
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# **/ ignore in any subdirectory
+**/.ipynb_checkpoints/
 
 # Data and Result files
 data/
