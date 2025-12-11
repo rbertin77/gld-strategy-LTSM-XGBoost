@@ -30,7 +30,7 @@ The most rigorous validation method (Walk-Forward) confirmed the robustness of t
 - **Model Benchmarking Framework:** The pipeline is flexible, allowing for the training and fair comparison of different model architectures (LSTM vs. XGBoost).
 - **Professional Backtesting Engine:** Utilizes the `vectorbt` library for fast and realistic simulations, incorporating transaction costs like commissions and slippage.
 - **Rigorous Validation Methods:** Implements both static train-test splits and a full Walk-Forward Validation to ensure the robustness of the findings.
-- 
+
 ## Project Structure
 
     /gld_lstm_strategy/
